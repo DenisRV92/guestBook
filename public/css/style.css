@@ -1,0 +1,110 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form_input, .form_textarea {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    padding: 12px;
+    width: 380px;
+    justify-content: space-between;
+}
+
+.form_input input {
+    width: 280px;
+    height: 30px;
+    padding: 0 10px;
+}
+
+.form_input span {
+    color: red;
+}
+
+.form_textarea {
+    width: 100%;
+}
+
+.form_textarea textarea {
+    width: 95%;
+    font-size: 15px;
+    height: 100px;
+    padding: 5px;
+    resize: none;
+    margin-left: 10px;
+}
+
+.form_submit {
+    float: right;
+    height: 40px;
+    width: 100px;
+    border-color: #007E3E;
+    border-radius: 5px;
+    background: #007E3E;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.form_input {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form_danger {
+    position: absolute;
+    top: 40px;
+    color: red;
+}
+
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination_button {
+    display: inline-block;
+    background-color: dodgerblue;
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.form_submit, .pagination_button :hover {
+    cursor: pointer;
+}
+
+.active_button {
+    color: red;
+}
+
+th {
+    color: dodgerblue;
+}
+
+.alert {
+    width: 350px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    right: 40%;
+    background-color: lightslategrey;
+    color: lime;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
